@@ -44,7 +44,7 @@ h1 {
   padding: 12px 18px;
   margin: 0 34%;
   letter-spacing: 2px;
-  opacity: 0.9%;
+  opacity: 0.9;
 }
 
 .about {
@@ -57,20 +57,20 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 15px;
- }
+}
 
 .family {
   font-style: italic;
- }
+}
 
 .adjust {
   text-align: left;
   line-height: 30px;
- }
+}
 
 .myname {
   color: #6c6565;
- }
+}
 
 .myname .hats {
   display: flex;
@@ -88,11 +88,17 @@ h1 {
 }
 
 .myname img {
-  opacity: 0.5%;
+  opacity: 0.5;
 }
 
 .map img {
   width: 25vw;
+}
+
+.mywork img {
+  width: 20%;
+  padding: 8px;
+  padding-top: 40px;
 }
 
 .myname img:hover {
@@ -139,6 +145,17 @@ h3 {
   text-decoration: none;
 }
 
+.info p {
+  font-style: normal;
+  text-align: justify;
+}
+
+.locate p {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
 .work .container2 p {
   text-align: center;
   padding-top: 8px;
@@ -163,11 +180,6 @@ h3 {
   background-color: gray;
   height: 5vh;
   width: 75%;
-}
-
-.info p {
-  font-style: normal;
-  text-align: justify;
 }
 
 .work .container4 p {
@@ -220,14 +232,8 @@ h3 {
   color: #6c6565;
 }
 
-.mywork img {
-  width: 20%;
-  padding: 8px;
-  padding-top: 40px;
-}
-
 .mywork img:hover {
-  opacity: 0.7%;
+  opacity: 0.7;
 }
 
 .but {
@@ -273,12 +279,6 @@ footer .buton {
   padding-bottom: 25px;
 }
 
-.locate p {
-  text-align: center;
-  font-style: italic;
-  padding-bottom: 25px;
-}
-
 .information {
   display: flex;
   gap: 20px;
@@ -289,7 +289,7 @@ footer .buton {
   display: flex;
   flex-direction: column;
   padding: 40px 0 0 40px;
-  gap: 30px;
+  gap: 10px;
 }
 
 .info h4 {
@@ -313,6 +313,10 @@ footer .buton {
   border-color: black;
   float: right;
   margin-top: 0;
+}
+
+.but2 {
+  margin-bottom: 40px;
 }
 
 .info .buton:hover {
