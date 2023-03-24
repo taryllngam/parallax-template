@@ -362,8 +362,9 @@ footer:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .topnav {
-    width: 99%;
+    visibility: hidden;
   }
 
   .searchbar {
