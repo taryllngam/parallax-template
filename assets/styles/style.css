@@ -28,7 +28,7 @@
 }
 
 .logo {
-  background-image: url("../images/img1.jpg");
+  background-image: url("../images/imggirl.jpg");
   height: 38vh;
   background-size: cover;
   text-align: center;
@@ -215,7 +215,7 @@ h3 {
 
 .port {
   height: 80vh;
-  background-image: url("../images/sun.jpg");
+  background-image: url("../images/parallax2.jpg");
   background-size: cover;
   text-align: center;
   color: white;
@@ -266,7 +266,7 @@ footer .buton {
 
 .contact {
   height: 80vh;
-  background-image: url("../images/travel.jpg");
+  background-image: url("../images/parallax3.jpg");
   background-size: cover;
   margin-top: 20px;
 }
@@ -274,7 +274,7 @@ footer .buton {
 .contact h5 {
   text-align: center;
   color: white;
-  padding-top: 25%;
+  padding-top: 20%;
   letter-spacing: 10px;
   font-size: 50px;
 }
@@ -371,7 +371,7 @@ footer:hover {
   }
 
   .logo {
-    background-image: url("../images/img1.jpg");
+    background-image: url("../images/imggirl.jpg");
     height: 38vh;
     background-size: cover;
     padding-top: 30%;
@@ -529,6 +529,7 @@ footer:hover {
 
   footer {
     height: 30vh;
+    width: 100%;
     margin-top: 70px;
   }
 
